@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jordan Leturgez | Business Card</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="matrix-bg" id="matrixBg"></div>
+  <div class="scanline"></div>
+  
+  <div class="container">
+    <div class="card" id="card">
+      <div class="card-face front">
+        <!-- Front of card content -->
+        <div class="glitch-wrapper">
+          <img class="profile-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk3fz73EA_Z3gU7u5kzXo3SQqbrw2MuZ098w&s" alt="Jordan Leturgez" />
+          <div class="glitch-overlay"></div>
+        </div>
+        <div class="info">
+          <h1 class="name" data-text="Jordan Leturgez">Jordan Leturgez</h1>
+          <p class="title">Frontend Developer/Copywriter/Content Creator</p>
+          <p class="company">The Ballin' J-Money World</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-item">
+            <span class="icon">📧</span>
+            <span class="contact-text">jordanleturgez@gmail.com</span>
+          </div>
+          <div class="contact-item">
+            <span class="icon">📱</span>
+            <span class="contact-text">(260) 225-3559</span>
+          </div>
+        </div>
+        <button class="flip-btn" id="flipBtn">View Network</button>
+      </div>
+      
+      <div class="card-face back">
+        <h2>Digital Ecosystem</h2>
+        <div class="network-grid">
+          <!-- network items here -->
+        </div>
+        <!-- Export vCard Button -->
+        <button class="vcard-btn" id="vcardBtn">
+          <span class="btn-icon">💾</span>
+          <span class="btn-text">Export vCard</span>
+        </button>
+        <button class="flip-btn back" id="flipBtnBack">Back to Card</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="particles" id="particles"></div>
+  
+  <!-- Your script -->
+  <script src="script.js"></script>
+</body>
+</html>
