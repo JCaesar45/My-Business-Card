@@ -13,14 +13,6 @@ Transform your contact details into a sleek, interactive masterpiece! Crafted wi
 
 ---
 
-## 🎨 Live Preview
-
-![Business Card Preview](https://codepen.io/JCaesar45/full/dPPmpXG)
-
-*Click the image for a full view!*
-
----
-
 ## ✨ Features That Shine
 
 - 📸 **Profile Image** — Make a great first impression  
